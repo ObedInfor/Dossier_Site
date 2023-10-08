@@ -21,3 +21,20 @@
   width: 50%;
   margin: auto;
 }
+td, th{
+  border: 1px solid #8e86b5;
+  padding: 15px;
+}
+table{
+  color: white;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+
+}
+caption{
+  padding: 70px;
+}
+td{
+  padding: 80px;
+}
