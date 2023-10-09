@@ -46,6 +46,8 @@ footer {
   color: white;
   border-radius: 50px;
   padding: 20px 30px;
+  margin-bottom: 60px;
+  margin-top: 80px;
 }
 
 a:hover {
