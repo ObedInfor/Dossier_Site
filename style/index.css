@@ -3,7 +3,7 @@
   padding: 80px;
 }
 
-.accueil-photos h2 {
+.accueil-photos h2, h2 {
   color: #242424;
   text-align: center;
   margin-bottom: 80px;
@@ -35,4 +35,46 @@
 
 .accueil-introduction div {
   padding-right: 80px;
+}
+.Formulaire h2{
+  color: #a5b4fc;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
 }
